@@ -28,7 +28,7 @@ install.packages("foreign")
 
 2. Run `code/grf_application_401k.R` using R.
 
-### What the Code Does
+### What the Code does
 
 The script performs the following analysis:
 - Loads the SIPP 1991 dataset containing information on 401(k) eligibility and household finances
@@ -42,8 +42,8 @@ The script performs the following analysis:
 
 ```
 causal-forests-guide/
-├── README.md                          # This file
-├── LICENSE                            # MIT license
+├── README.md                         
+├── LICENSE                           # MIT license
 ├── data/
 │   └── sipp1991.dta                  # Survey of Income and Program Participation (1990)
 ├── code/
@@ -65,6 +65,9 @@ This article builds on the following key papers:
 
 - **Athey, S., Tibshirani, J., & Wager, S.** (2019). Generalized random forests. *The Annals of Statistics*, 47(2), 1148-1178.
 
+**Software:**
+- **grf: Generalized Random Forests** - R package documentation available at https://grf-labs.github.io/grf/index.html
+
 **Dataset source:**
 - **Chernozhukov, V., & Hansen, C.** (2004). The effects of 401(k) participation on the wealth distribution: an instrumental quantile regression analysis. *Review of Economics and Statistics*, 86(3), 735-751.
 
@@ -72,9 +75,3 @@ This article builds on the following key papers:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Author
-
-**Julian Streyczek**
-Department of Economics, Università Bocconi
-
-For more information, visit the [full blog article](https://julianstreyczek.github.io/blog/2022-01-causal-forests-guide).
